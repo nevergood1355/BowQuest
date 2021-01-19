@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">The Bow Quest</string>
+    <string name="episode_end">Серия окончена!</string>
+    <string name="next">Продолжить</string>
+    <string name="coins">Монеты</string>
+
+    <string name="stat1">Смелость</string>
+    <string name="stat2">Осторожность</string>
+    <string name="stat3">Влиятельность</string>
+
+    <string name="path_stat1">Путь смелости</string>
+    <string name="path_stat2">Путь осторожности</string>
+    <string name="path_fame_l">Путь низкой влиятельности</string>
+    <string name="path_fame_h">Путь влиятельности</string>
+
+    <string name="takko">Такко</string>
+    <string name="veren">Верен</string>
+    <string name="kaysa">Кайса</string>
+    <string name="margraf">Маркграф</string>
+    <string name="agnet">Агнет</string>
+    <string name="worker">Подмастерье</string>
+    <string name="judge">Судья</string>
+    <string name="old_lady">Лавочница</string>
+    <string name="widow">Вдова</string>
+    <string name="hero_gg">Девушки</string>
+    <string name="ditmar">Дитмар</string>
+
+    <string name="production">The KinGames</string>
+    <string name="akka_holm">Акка Хольм</string>
+    <string name="nikita">Гуртовцев Никита</string>
+    <string name="kostya">Уренев Константин</string>
+    <string name="alla">Алла Робертус</string>
+    <string name="tester">Тестировщики</string>
+    <string name="contacts">Контакты</string>
+
+    <string name="series">Серия %1$s</string>
+
+    <string name="warning_text">Восстановление колчана должно происходить каждые 30 минут.\n\nДля получения доступа к системному времени необходимо разрешение Вашего местоположения.</string>
+    <string name="settings">Настройки</string>
+    <string name="ok">Ок</string>
+    <string name="warning">Предупреждение</string>
+    <string name="text_gems">Колчаны</string>
+    <string name="buy_ad">Для получения колчана вы можете посмотреть видеорекламу.</string>
+</resources>

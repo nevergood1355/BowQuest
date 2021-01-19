@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:value="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/anim_view"
+        android:background="#00FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/answers"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical">
+            
+            <RelativeLayout
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fon_button_gold"
+                android:layout_height="60dp">
+
+                <LinearLayout
+                    android:id="@+id/cost_container1"
+                    android:visibility="gone"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:src="@drawable/icon_gold_coin"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:id="@+id/cost1"
+                        android:text="5"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toStartOf="@id/cost_container1"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|left"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/ch1_e1_c8_v1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fon_button"
+                android:layout_height="60dp">
+
+                <LinearLayout
+                    android:id="@+id/cost_container2"
+                    android:visibility="gone"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:src="@drawable/icon_gold_coin"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:id="@+id/cost2"
+                        android:text="5"
+                        android:textSize="22sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/cost_container2"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|left"
+                    android:paddingStart="15dp"
+                    android:text="@string/ch1_e1_c8_v1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/fon_button"
+                android:layout_height="60dp">
+
+                <LinearLayout
+                    android:id="@+id/cost_container3"
+                    android:visibility="gone"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:layout_height="60dp">
+
+                    <ImageView
+                        android:src="@drawable/icon_gold_coin"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:id="@+id/cost3"
+                        android:text="5"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/cost_container3"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|left"
+                    android:paddingStart="15dp"
+                    android:text="@string/ch1_e1_c8_v1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/answers"
+            android:layout_marginBottom="15dp"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <com.quest.custom_views.ProgressBar
+                android:id="@+id/timer_bar"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/fon_timer"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/fon_dialog"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fon_dialog_header"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/takko"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:padding="15dp"
+                    android:text="@string/ch1_e1_c5"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

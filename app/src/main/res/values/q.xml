@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ch1_e_c0">Об авторах</string>
+    <string name="ch1_e_c1_m">Издательство\nThe KinGames</string>
+    <string name="ch1_e_c2_a">Автор текста</string>
+    <string name="ch1_e_c3_t">Руководитель проекта</string>
+    <string name="ch1_e_c4_v">Ведущий программист</string>
+    <string name="ch1_e_c5_k">Художник</string>
+    <string name="ch1_e_c6_j">Здесь будете Вы, если дадите обратную связь по игре</string>
+    <string name="ch1_e_c7">Другие ресурсы\nficbook.net\ngame-icons.net\npixabay.com</string>
+    <string name="ch1_e_c8">Музыка и звуки\nincompetech.com\nopengameart.org\nwav-library.net</string>
+    <string name="ch1_e_c9">Контакты\nthekingames.com\nkgwekg@gmail.com</string>
+</resources>
